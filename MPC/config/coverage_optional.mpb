@@ -1,8 +1,7 @@
 // this feature is used to turn on coverage instrumentation (for gcov)
-// the flag is in the negative, so that is only needs to be addressed
-// when we do a coverage build and defaults to off otherwise
+// switched to default on. Always want coverage for PRAT.
 
-feature(!dds_non_coverage) {
+feature(dds_non_coverage) {
 
   verbatim(gnuace,local) {
 
