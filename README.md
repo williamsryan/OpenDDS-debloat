@@ -12,7 +12,7 @@ to `CCFLAGS` and `LDFLAGS`.
 
 View features by running `./configure --help`.
 
-All `gcno` and `gcov` files will be in `dds/.shobj/
+All `gcno` and `gcov` files will be in `dds/.shobj/`
 
 OpenDDS is an open-source C++ implementation of the Object Management Group's
 specification "Data Distribution Service for Real-time Systems".  Although
