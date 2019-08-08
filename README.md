@@ -7,7 +7,7 @@
 [![Azure DevOps](https://dev.azure.com/opendds/OpenDDS/_apis/build/status/objectcomputing.OpenDDS)](https://dev.azure.com/opendds/OpenDDS/_build/latest?definitionId=1)
 
 ## Ryan Dev Notes
-In `dds/GNUmakefile.OpenDDS_Dcps` add `--coverage -fprofile-arc -ftest-coverage`
+In `dds/GNUmakefile.OpenDDS_Dcps` add `--coverage -fprofile-arcs -ftest-coverage`
 to `CCFLAGS` and `LDFLAGS`.
 
 View features by running `./configure --help`.
