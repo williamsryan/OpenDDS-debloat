@@ -4,6 +4,9 @@
 
 [![Coverity Scan Build Status](https://scan.coverity.com/projects/opendds/badge.svg)](https://scan.coverity.com/projects/opendds)
 
+### Notes - RPW
+For changing compilation flags, put all content in: `ACE_wrappers/include/makeinclude/platform_linux_clang.GNU`
+
 OpenDDS is an open-source C++ implementation of the Object Management Group's
 specification "Data Distribution Service for Real-time Systems" (DDS), as well
 as some other related specifications. These standards define a set of
