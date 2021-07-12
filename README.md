@@ -8,6 +8,12 @@
 For changing compilation flags, put all content in: `ACE_wrappers/include/makeinclude/platform_linux_clang.GNU`
 
 OpenDDS is an open-source C++ implementation of the Object Management Group's
+specification "Data Distribution Service for Real-time Systems".  Although
+OpenDDS is itself developed in C++, Java and JMS bindings are provided so
+that Java applications can use OpenDDS.  OpenDDS also includes support for the
+DDS Security specification.
+
+OpenDDS is an open-source C++ implementation of the Object Management Group's
 specification "Data Distribution Service for Real-time Systems" (DDS), as well
 as some other related specifications. These standards define a set of
 interfaces and protocols for developing distributed applications based on the
